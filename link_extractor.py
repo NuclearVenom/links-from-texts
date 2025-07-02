@@ -39,10 +39,10 @@ def on_open_button():
 
 # GUI setup
 root = tk.Tk()
-root.title("Paste WhatsApp Text to Open Links")
+root.title("Paste Text to Open Links")
 root.geometry("600x400")
 
-label = tk.Label(root, text="Paste your WhatsApp messages below:")
+label = tk.Label(root, text="Paste your below:")
 label.pack(pady=10)
 
 text_box = tk.Text(root, wrap=tk.WORD, height=15, width=70)
